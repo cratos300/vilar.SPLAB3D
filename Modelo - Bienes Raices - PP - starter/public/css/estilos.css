@@ -1,0 +1,153 @@
+header{
+    background-color: blue;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.navprincipal{
+   display: flex;
+   align-items: center;
+}
+.navabajo
+{   
+    margin-left: 25px;
+}
+select{
+    margin-top: 10px;
+    display: block;
+}
+a{
+    color: white;
+    margin-right: 5px;
+}
+/*
+nav{
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 300px;
+    display: flex; 
+    justify-content: space-between;
+    margin: auto;
+}*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.inputt{
+    display: block;
+     margin-top: 15px;
+     margin-bottom: 25px;
+    
+     width: 100%;
+ }
+ label{
+     border: 1px solid #ccc;
+     font-size: 18px;
+     color: lawngreen;
+ }
+ form{
+        border:3px solid #ccc;  
+        margin-left: 5px;
+         width: 30%;
+         padding:20px;
+         margin: auto;
+ }
+ 
+.divc{
+     margin-top: 120px;
+ }
+
+
+.divo{
+    text-align: center;
+}
+.radi{
+    display: inline;
+    margin-left: 50px;
+}
+
+#anchor{
+   text-decoration: none;
+}
+.numbersalto{
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.tarara{
+    display: inline-block;
+    margin-top: 15px;
+}
+.centrar
+{
+ display: flex;
+ justify-content: space-evenly;
+}
+.distro
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.rojo
+{
+    background-color : red;
+    font-size: large;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    height: 100px;
+    background-color: blue;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.alogo
+{
+    width: 200px;
+    height: 100px;
+}
+.divi
+{
+    height: 700px;
+    width: 100%;
+}
+.peee
+{
+    display: flex;
+    justify-content: center;
+}
+.ti{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+.centir
+{
+    display: flex;
+    align-items: center;
+}
+.tamaño
+{
+    width: 30px;
+    height: 30px;
+}
+.tamañoo
+{
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+.pepito{
+    margin-top: 15px;
+}
+
+.turroncito{
+    width: 100X;
+}

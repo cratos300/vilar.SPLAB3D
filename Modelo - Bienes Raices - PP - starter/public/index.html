@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="./js/index.js"></script>
+    <script src="./js/anuncio.js"></script>
+    <script src="./js/anuncios_autos.js"></script>
+    <script src="./js/tableheper.js"></script>
+    <script src="./js/xhr.js"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/styles.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+           <div>
+            <a href=""><img src="./img/tinchope2.svg"   class="alogo" alt=""></a>
+           </div>
+        </div>
+        <nav class="navprincipal">
+            <a href="nosotros">nosotros</a>
+            <a href="anuncios">anuncios</a> 
+            <a href="blog">blog</a>
+            <a href="contacto">contacto</a>
+        </nav>
+    </div>
+    </div>
+</div>
+ 
+   
+    </header>
+    <div>
+        <p class="peee">ADMINISTRACION</p>
+    </div>
+    <img src="../img/lotototo.jpg" alt = "coche" class="divi">
+    <div class="jumbotron">
+        <form action="">
+            <div>
+            <label>Titulo</label >
+            <input type="text" name="frmTitulo" class="inputt" id="frmTitulo" autocomplete="off">
+            <label>Descripcion</label>
+            <input type="text" id="frmDescripcion" name="frmDescripcion" class="inputt" autocomplete="off">
+            <label>Precio</label>
+            <input type="text" id="frmPrecio" class="inputt" name="frmPrecio" autocomplete="off">
+            <label>Transaccion</label>
+            <select name="tipo" id="tipo">
+                <option value="Venta" selected>Venta</option>
+                <option value="Alquiler">Alquiler</option>
+                <option value="Permutar">Permutar</option>
+            </select>
+             <img src="./img/puerta.svg" class ="tamañoo" alt="">
+             <input class="numbersalto" type="text"  name="frmNum_baño" id="frmNum_baño" placeholder="INGRESE CANTIDAD DE PUERTAS:" autocomplete="off">
+             <img src="./img/km.svg"   class="tamaño" alt="">
+             <input class="numbersalto" type="text" name="frmNum_estacionamiento" id="frmNum_estacionamiento" placeholder="INGRESE CANTIDAD DE KM:" autocomplete="off">
+             <img src="./img/potencia.svg" class="tamaño" alt="">
+             <input class="numbersalto" type="text"   min="0" name="frmNum_dormitorio" id="frmNum_dormitorio" placeholder="INGRESE POTENCIA:" autocomplete="off">
+             <input class="oculto" type="text" name  = "id">
+             <div class="centrar">
+                <button name="eliminar"class="oculto" id="eliminar" class="btn btn-dark">Eliminar</button>
+                <button type="submit" value="alta"  id = "alta" class="btn btn-primary"> ENVIAR </button>
+                <button name="Modificar"class="oculto" id="modificar">Modificar</button>
+                <button type="reset" id="cancelar" class="oculto">CANCELAR</button>
+             </div>
+             <div >
+             </div >
+             <div class="checkbox">
+             <input type="checkbox" id="titulo" value="titulo" name = "titulo" >titulo
+             <input type="checkbox" id="transaccion" value="transaccion" name = "transaccion" >transaccion
+             <input type="checkbox" id="descripcion" value="descripcion" name = "descripcion" >descripcion
+             <input type="checkbox" id="precio"  value="precio" name = "precio" >precio<br>
+             <input type="checkbox" id="puertas" value="puertas" name = "puertas">puertas
+             <input type="checkbox" id="kms"  value="kms" name = "kms">kms
+             <input type="checkbox" id="potencia" value="potencia" name = "potencia">potencia
+             </div>
+             <select name="" id="seleccionado">
+                 <option value="Todos">Todos</option>
+                 <option value="Venta">Venta</option>
+                 <option value="Alquiler">Alquiler</option>
+                 <option value="Permutar">Permutar</option>
+             </select>
+             <input type="text" placeholder="PROMEDIO" class="pepito" id="promedio" readonly>
+            </div>
+            </div>
+            
+        </form>
+
+        
+        <div id="tabla" class="centrar"></div> 
+            <footer class="centir">
+                <div class="row">
+                <div class="col-sm-9">
+                <nav class="navabajo">
+                    <a href="nosotros">nosotros</a>
+                    <a href="anuncios">anuncios</a>
+                    <a href="blog">blog</a>
+                    <a href="contacto">contacto</a>
+                </nav>
+            </div>
+                <p>Todos los Derechos Reservados UTNFRA 2020 &copy;</p>
+        </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
